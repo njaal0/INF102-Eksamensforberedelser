@@ -1,4 +1,4 @@
-Cred: marcinjackowiak
+Cred: GitHub: marcinjackowiak
 
 Big O complexities for common methods of Java Collections and common sorting algorithms.
 
