@@ -1,0 +1,80 @@
+
+Repetisjon:
+
+Se forelesning 4 for memorisering
+
+Sortering:
+- insertion sort, selection sort O(n^2)
+- merge sort, quick sort O(n log n)
+
+- divide and conquer
+
+Hvordan bruke Collections.sort()
+- Comparator, comparable, Obs på å lage slides for å skrive disse
+
+Obs QuickSort og QuickSelect.
+
+Obs pq/Heap
+- minHeap/maxHeap
+
+add - O(log n)
+peekMin - O(1)
+removeMin - O(log n)
+contruct heap - O(n)
+
+Binary Search Tree
+- For comparable objekter
+- Finne største og minste og minste element
+
+HashTable / HashSet
+- For objekter med hash-verdi
+- brukes oftest for contains-metoden
+
+TreeSet kjøretid
+log n for alt
+
+HashSet
+add, remove, contains O(1), findMin/findMax O(n)
+
+Graphs
+
+Nodes
+- Byer, Person, Datamaskin, spill posisjon, student/emne, robot/job, lag
+
+Edges
+- Veier, vennskap, nettverkskabel, gyldig trekk, tar emnet, assigned, kamp
+
+Et sett av noder, Set<V>
+For hver node, hold sett av naboer
+- Map fra V til Set<V>
+
+adjacent O(1)* peek adjacent
+vertices O(1)* peek vertices
+edges O(m)
+neighbours O(1)* peek neighbours
+addVertex O(1)*
+addEdge O(1)*
+
+Graph algorithms
+
+DFS O(n+m)
+BFS O(n+m)
+
+Begge disse kan brukes til å finne sammenhengende komponenter
+
+BFS finnes korteste sti i uvektet graf
+DFS kan ikke gjøre dette
+
+Graph algorithms weighted Graph
+MST
+- Kruskal's O(m log n)
+- Prim's O(m log n)
+
+Shortest path
+- Dijkstra's O(m log n)
+(virker ikke med negative kanter)
+- A* O(m log n)
+(i praksis bedre enn Dijkstra når man kan avgjøre om en node er nær eller langt unna)
+- Bellman-Fort O(n*m)
+(virker med negative kanter hvis det ikke finnes noen negative sykler)
+
