@@ -1,11 +1,7 @@
-package student;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
-
-import graph.*;
 
 /**
  * Discussed possible solutions to task 1 and 2 with
