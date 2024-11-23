@@ -25,7 +25,7 @@ public class CountProducts {
     }
 
     public static void main(String[] args) {
-        int[] list = {1, 2, 3, 4, 5};
+        int[] list = {1, 4, 9, 3, 8, 5, 2, 6, 7, 7};
 
         System.out.println(countProducts(list));
     }
